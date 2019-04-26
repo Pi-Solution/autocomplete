@@ -1,0 +1,19 @@
+{
+	"Description": {
+		"Author": "Petar Arandjic",
+		"Version": "1.0 beta",
+		"Lisense": "MIT",
+		"Note": "This is none Ajax version (I'm planing to make Ajax version too). Easy to use autoComplete for absolute input field"
+	}
+	"Instructions": {
+		"1. Prepare document": "add .js and .css file to you project directory and link them with your HTML file",
+		"2. Preparation of input field": "Make sure that your input field is absolute position and 100% height and width of parent div",
+		"3. Setting up data for autoComplete": "In auto_complete_parametars.js add arrays with you data to sel_val array",
+		"4. Setting up autoComplete to input field": "Add data-ac_index='index of your array inside sel_val array' to input field",
+		"5. Final": "Enjoy!!!"
+	}
+	"Additional note": {
+		"1.": "I'm open for suggestion and new ideas so feel free to contact me"
+		"2.": "This version doesn't have any styles you are free to add your own"
+	}
+}
