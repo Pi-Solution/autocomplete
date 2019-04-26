@@ -1,7 +1,7 @@
 {
 	"Description": {
 		"Author": "Petar Arandjic",
-		"Version": "1.0 beta",
+		"Version": "v1.0",
 		"Lisense": "MIT",
 		"Note": "This is none Ajax version (I'm planing to make Ajax version too). Easy to use autoComplete for absolute input field"
 	}
