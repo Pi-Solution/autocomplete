@@ -90,26 +90,26 @@ function marked_element(direction, input_ac_div){
 	var list_elements = input_ac_div.children;
 	var current_element = null;
 	for(let i = 0; i < list_elements.length; i++){
-		if (list_elements[i].style.background == 'lightgray') {
+		if (list_elements[i].style.background == list_elements_bgc) {
 			current_element = i;
 			break;
 		}
 	}
 	if (current_element == null && direction == true) {
-		list_elements[0].style.background = "lightgray";
+		list_elements[0].style.background = list_elements_bgc;
 	}else if (current_element != null && direction == true  && current_element != list_elements.length-1) {
 		list_elements[current_element].style.background = 'white'
-		list_elements[++current_element].style.background = 'lightgray'
+		list_elements[++current_element].style.background = list_elements_bgc
 	}else if (current_element != null && direction == false) {
 		list_elements[current_element].style.background = 'white'
-		list_elements[--current_element].style.background = 'lightgray'
+		list_elements[--current_element].style.background = list_elements_bgc
 	}
 }
 function select_marked_element(input_fields, input_ac_div){
 	var list_elements = input_ac_div.children;
 	var current_element = null;
 	for(let i = 0; i < list_elements.length; i++){
-		if (list_elements[i].style.background == 'lightgray') {
+		if (list_elements[i].style.background == list_elements_bgc) {
 			input_fields.value = list_elements[i].children[0].innerHTML;
 			check_for_mach(input_fields, input_ac_div);
 			break;

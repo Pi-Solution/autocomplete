@@ -12,3 +12,6 @@
 	//set height of autocomplete window
 	var set_ac_height = 100;
 
+	//background color of autoComplete element
+	var list_elements_bgc = 'lightgray'
+
